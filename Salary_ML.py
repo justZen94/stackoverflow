@@ -44,6 +44,10 @@ def clean_data(df):
     X = df
     return X, y
 
+def sum_of_two_numbers(x,y):
+    z = x + y
+    return z
+
 def find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=True):
     '''
     INPUT
